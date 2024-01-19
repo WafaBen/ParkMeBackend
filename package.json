@@ -1,0 +1,36 @@
+{
+  "name": "parkme_backend",
+  "version": "1.0.0",
+  "description": "Backend for mobile application ParkMe",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BouazizAmina/ParkMe_Backend.git"
+  },
+  "keywords": [
+    "Paking",
+    "application"
+  ],
+  "author": "Wafa Benyahia and Amina Bouaziz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BouazizAmina/ParkMe_Backend/issues"
+  },
+  "homepage": "https://github.com/BouazizAmina/ParkMe_Backend#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "google-distance-matrix": "^1.1.1",
+    "mapbox": "^1.0.0-beta10",
+    "mapbox-gl": "^2.8.2",
+    "pg": "^8.7.3",
+    "qrcode": "^1.5.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.19.2"
+  }
+}
